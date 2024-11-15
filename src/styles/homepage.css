@@ -1,0 +1,90 @@
+html{
+    background-color: green;
+    margin: 0% 20% 0% 20%;
+}
+body{
+    background: #dcdedb;
+}
+.NavBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: space-between;
+    font-size: 120%;
+    gap: 8%;
+    padding: 3%;
+    text-decoration: none;
+}
+.NavBar a{
+    text-decoration: none;
+    color: black;
+}
+.NavBar a:last-child{
+    border: 2px solid rgb(16, 153, 37);
+    text-decoration: none;
+    padding: 1% 1% 1% 1%;
+    margin-top: -1%;
+}
+.NavBar a:last-child:hover{
+    border: 2px solid red;
+}
+.entrance{
+    padding-top: 9em;
+    padding-bottom: 20em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.entrance h1, .entrance h2 {
+    margin-top: 0;
+    margin-bottom: 0.1em;
+    padding: 0;
+}
+
+.landingImage{
+    background-image: url('../images/pexels-karolina-grabowska-7185856.jpg');
+    background-position: center -15em;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: rgb(0, 0, 0);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    
+}
+.article_container{
+    text-align: center;
+    margin-top: -25%;
+}
+
+.articles{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-between;
+    gap: 1em;
+    padding: 0% 2% 0% 2%;
+}
+.articles h2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.articles p {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border: 2px rgb(170, 170, 170) solid;
+    border-radius: 2%;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.articles p img {
+    width: 18em;
+    height: auto;
+    border-radius: 1.5%;
+    margin-bottom: 1em;
+}
